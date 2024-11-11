@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.roboto-bold {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-style: normal;
+    }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+button.boton-chat {
+    background-color: #A491D2;
+    border: #A491D2;
+    padding: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Roboto";
+    font-size: 25px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+button.boton-chat:hover{
+    background-color: #CDC3E6
+}
+
+button.boton-chat:focus {
+    background-color: #BEC1BB
+}
+
+.imagen-logo {
+    width: 350px;
+    height: auto;
+    padding-bottom: 50px;
+}
+.logo-chat {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Roboto";
+}
+.contact {
+    display: flex;
+    border: 2px solid #E8EBE4;
+
+    font-size: 20px;
+    align-items: center;
+    font-family: "Roboto";
+    
+}
+.contact-1 {
+    display: flex;
+    font-size: 20px;
+    border: 2px solid #E8EBE4;
+    color: #BEC1BB;
+    align-items: center;
+    font-family: "Roboto"
+}
+.texto {
+    padding-top: 40px;
+}
+.contact-1 h3 {
+    color: #1B1F21;
+}
+.contact-1:hover {
+    background-color: #CDC3E6;
+}
+.contact-1:active{
+    background-color: #BEC1BB;
+}
+.perfil img {
+    width: 57px;
+    border-radius: 50%;
+    margin: 12px;
+    display: flex;
+    margin-left: 55px;
+}
+.avatar img {
+    width: 75px;
+    border-radius: 50%;
+    display: flex;
+    margin: 15px;
+    margin-left: 50px;
+}
+
+span {
+    font-weight: 700;
+}
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color:#E8EBE4;
+}
+.principal {
+    display: flex;
+}
+.icon-container{
+    text-align: end;
+    font-size: 30px;
+    margin-left: 195px;
+    margin-bottom: 25px; 
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+p.nombre {
+    color:#1B1F21;
+    font-size: 25px;
+    font-family: "Roboto";
+}
+h1 {
+    color: #1B1F21;
+    font-size: 60px;
+    font-family: "Roboto";
+    font-weight: 450;
+}
+.descripcion {
+    color: #1B1F21;
+    font-size: 20px;
+    font-family: "Roboto";
+    margin-top: 10px;
+}
+.contact:hover {
+    background-color: #CDC3E6;
+}
+.contact:active {
+    background-color: #BEC1BB;
+}
+.xd{
+    display: flex;
+    justify-content: center;
+}
+p.disponibilidad {
+    white-space: nowrap;
+    font-size: 16px;
+}
+
